@@ -1,0 +1,323 @@
+*
+{
+	 margin: 0px;
+}
+body
+{
+	/*background-image: url("imgs/01.jpg");*/
+	font-family: Arial;
+	font-size: 16px;
+	margin: 5px auto;
+	width: 980px;
+}
+body #nav
+{	
+	background: #fff;
+	border-radius: 10px 10px 0 0;
+	overflow: hidden;
+	position: relative;	
+}
+body div figure
+{
+	float: left;
+}
+body div figure, nav
+{	
+	display: inline-block;
+}
+footer
+{
+	/*background: rgba(230, 230, 230, 0.8);*/
+	background: rgba(46, 119, 213, 0.8);
+	border-top: 2px solid gray;
+	border-radius: 0 0 10px 10px;
+	clear: both;
+	padding: 2em 0;
+	text-align: center;
+
+	color: white;
+	text-shadow: #303030 1px 1px 5px;
+}
+footer figure img:nth-child(1)
+{
+	background-image: url("imgs/twitternegro.png");
+	/*opacity: 0.5;*/
+	height: 40px;
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-o-transition: 0.3s;
+	-ms-transition: 0.3s;
+	width: 50px;	
+}
+footer figure img:nth-child(1):hover
+{
+	background-image: url("imgs/twitter.png");
+	/*opacity: 0.7;*/
+}
+footer figure img:nth-child(2)
+{
+	background-image: url("imgs/facebooknegro.png");
+	/*opacity: 0.5;*/
+	height: 40px;
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-o-transition: 0.3s;
+	-ms-transition: 0.3s;
+	width: 50px;	
+}
+footer figure img:nth-child(2):hover
+{
+	background-image: url("imgs/facebook.png");
+	/*opacity: 0.7;*/
+}
+footer figure img:nth-child(3)
+{
+	background-image: url("imgs/youtubenegro.png");
+	/*opacity: 0.5;*/
+	height: 40px;
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-o-transition: 0.3s;
+	-ms-transition: 0.3s;
+	width: 50px;	
+}
+footer figure img:nth-child(3):hover
+{
+	background-image: url("imgs/youtube.png");
+	/*opacity: 0.7;*/
+}
+nav
+{	
+	background: #fff;		
+	margin-top: 0.3em;
+}
+nav ul
+{		
+	margin-left: 4em;
+}
+nav ul li
+{
+	display: inline-block;	
+	margin: 1em 0em 1em 0em;
+}
+nav ul li a
+{
+	/*background-image: url(http://1.bp.blogspot.com/-OiYftQ5vrCY/UTexZdK_55I/AAAAAAAABE4/FnP09khHIeI/s000/menu-secondary-bg.png);
+background-position-x: 0%;
+background-position-y: 0%;
+background-size: initial;
+background-repeat-x: no-repeat;
+background-repeat-y: no-repeat;
+background-attachment: initial;
+background-origin: initial;
+background-clip: initial;
+background-color: initial;*/
+
+
+	color: #000;
+	font-family: Coustard;
+	margin-left: 0.2em;		
+	padding: 1em;
+	text-decoration: none;
+	text-shadow: rgba(0,0,0,0.2) 0px 1px 1px;	
+	-webkit-transition: .3s;
+	-moz-transition: .3s;
+	-ms-transition: .3s;
+	-o-transition: .3s;
+}
+nav ul li a:hover
+{
+	background: #35a4d8;
+	border-radius: 5px;	
+	color: #fff;
+	text-shadow: rgba(30,30,30,0.3) 2px 2px 10px;
+	-webkit-box-shadow: rgba(30,30,30,0.3) 0px 0px 100px inset;
+	-moz-box-shadow: rgba(30,30,30,0.3) 0px 0px 100px inset;
+	-o-box-shadow: rgba(30,30,30,0.3) 0px 0px 100px inset;
+	-ms-box-shadow: rgba(30,30,30,0.3) 0px 0px 100px inset;
+}
+section
+{
+	background: rgba(230, 230, 230, 0.8);	
+	overflow: hidden;
+	padding-bottom: 1em;
+}
+section div
+{
+	background: rgba(230, 230, 230, 0);
+	padding-bottom: 2em;
+}
+section div div.vinculos
+{	
+	border: 1px solid #b6b7bf;
+	border-radius: 10px;
+	display: inline-block;
+	margin: 1.4em 0 0 1.8em;
+	padding: 1em;
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-o-transition: 0.3s;
+	-ms-transition: 0.3s;
+}
+section div div.vinculos
+{	
+	background: rgba(255, 255, 255, 0.7);
+	/*background-image: -webkit-radial-gradient(black, white, rgba(30, 144, 255, 0.1));
+	background-image: -moz-radial-gradient(black, white, rgba(30, 144, 255, 0.1));
+	background-image: -o-radial-gradient(black, white, rgba(30, 144, 255, 0.1));
+	background-image: -ms-radial-gradient(black, white, rgba(30, 144, 255, 0.1));*/
+}
+section div div.vinculos:hover
+{
+	box-shadow: rgba(0,0,0,0.5) 5px 5px 10px;
+	-webkit-transform: scale(1.15);
+	-moz-transform: scale(1.15);
+	-o-transform: scale(1.15);
+	-ms-transform: scale(1.15);
+}
+section div div.nosotros
+{
+	background: #fff;
+	/*border: 1px solid red;*/
+	border-radius: 10px;
+	margin: 0.5em 0 0 3em;
+	padding: 1em;
+	float: left;	
+	width: 850px;
+}
+section div div.nosotros div.nosotrosimg 
+{	
+	float: left;
+	padding: 0.1em;
+}
+section div div.nosotros div.nosotrosimg figure img
+{	
+	border-radius: 10px;
+	height: 200px;		
+	width: 250px;
+}
+section div div.nosotros div.nosotrosletras
+{	
+	color: rgb(88, 87, 87);
+	margin: 1.1em 1em;
+	font-family: Coustard;
+	float: left;
+	text-align: justify;
+	width: 550px;
+}
+section div div.nosotros div.nosotrosletras h2
+{	
+	color: rgb(0,0,0);
+}
+section div div.vinculos span
+{
+	display: block;	
+	font-family: Coustard;	
+	text-align: center;
+	width: 250px;
+}
+section div div.vinculos span:nth-child(1)
+{
+	display: block;	
+	font-family: Coustard;
+	text-align: center;	
+	text-shadow: rgba(162, 148, 148, 0.8) 1px 1px 1px;
+	width: 250px;
+
+	color: white;
+	background: rgba(46, 119, 213, 0.8);
+	border-radius: 10px 10px 0 0;
+}
+section div div.vinculos figure img
+{
+	height: 150px;	
+	width: 250px;
+}
+section #imgcentrado img
+{
+	background: #fff;	
+	border-radius: 10px;
+	/*border-radius: 10px;
+	box-shadow: rgba(0,0,0,1) 2px 2px 5px;*/
+	/*height: 380px;*/
+	/*padding: 0.6em;
+	margin: 1em;*/
+	min-height: 200px;
+	width: 100%;	
+}
+
+section #comentarios
+{
+	background: #fff;
+	border-radius: 10px;	
+	color: white;
+	font-family: Coustard;		
+	padding: 0.8em 4em;
+	text-align: center;
+	text-shadow: #000 0px 0px 5px;
+	background-image: url("imgs/fondo1.jpg");
+
+	/*background: linear-gradient( to right, rgb(236, 214, 236), rgba(255,255,255,1), rgb(236, 214, 236));*/	
+}
+section #titulonosotros
+{
+	background: #fff;
+	border-radius: 0px;	
+	font-family: Coustard;	
+	margin: 1em 0;	
+	padding: 0.8em 4em;
+	text-align: left;
+	/*background: linear-gradient( to right, rgb(236, 214, 236), rgba(255,255,255,1), rgb(236, 214, 236));*/	
+}
+
+
+
+@media screen and (max-width: 980px){
+	body
+	{
+		width: 100%;
+	}
+	section div div.vinculos 
+	{
+		margin: 0.5em 0;
+	}
+	section div div.vinculos:hover
+	{
+		background: rgba(66, 185, 241, 0.6);
+		-webkit-transform: scale(1);
+	}
+	#nav figure
+	{
+		display: none;
+	}
+}
+@media screen and (max-width: 400px){
+	nav 
+	{
+		margin: 0.3em;
+	}
+	nav ul 
+	{
+		margin: 0 0em 0 0em;
+		padding-left: 0;
+	}
+	nav ul li
+	{
+		display: block;
+		margin: 0 0;
+	}
+	nav ul li a
+	{
+		padding: .3em 6em;
+		display: block;
+		text-align: center;
+	}
+	section #comentarios span
+	{
+		display: none;
+	}
+	#nav figure
+	{
+		display: none;
+	}
+}

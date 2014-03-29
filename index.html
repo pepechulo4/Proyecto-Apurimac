@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8" />
+	<meta name="description" content="Abancaycito comunidad de amigos, donde puedes compartir tus opiniones y comentarios" />
+	<title>Abancaycito</title>
+	<link rel="stylesheet" href="estilos.css" />
+	<link href='http://fonts.googleapis.com/css?family=Lemon' rel='stylesheet' type='text/css'>
+	<link href="http://fonts.googleapis.com/css?family=Coustard" rel="stylesheet" type="text/css">
+</head>
+<body onLoad="presImagen()">	
+	<div id="nav">	
+		<figure>
+				<img src="imgs/abancaycito.jpg" />				
+		</figure>
+		<nav>						
+			<ul>
+				<li><a href="index.html" class="icon-inicio">Restaurantes</a></li>
+				<li><a href="nosotros.html" class="icon-nosotros">Hoteles</a></li>
+				<li><a href="galeria.html" class="icon-camara">Tiendas</a></li>
+				<li><a href="contactos.html" class="icon-contacto">Quintas</a></li>
+				<li><a href="publicar.html" class="icon-publicar">Bares</a></li>
+				<li><a href="publicar.html" class="icon-publicar">mas..</a></li>
+			</ul>
+		</nav>	
+	</div>		
+	<section>	
+		<figure id="imgcentrado">
+			<img id="foto" src="imgs/portada.jpg" />
+		</figure>					
+		<article id="comentarios">
+			<span><h1>Abancaycito</h1>Un lugar donde los momentos mas felices de tu vida se comparten con las personas mas alegres del Perú los Abanquinos.</span>
+		</article>		
+		<div>
+			<div class="vinculos">
+				<span><h2>FOTOS</h2></span>
+				<figure>
+					<img src="imgs/02.jpg" />				
+				</figure>
+				<span>Mira las fotos mas populares y comentalas.</span>
+			</div>
+			<div class="vinculos">
+				<span><h2>VIDEOS</h2></span>
+				<figure>
+					<img src="imgs/03.jpg" />				
+				</figure>
+				<span>Sube y mira tus videos y compartelo con tus amigos.</span>
+			</div>
+			<div class="vinculos">
+				<span><h2>EVENTOS</h2></span>
+				<figure>
+					<img src="imgs/04.jpg" />				
+				</figure>
+				<span>Enterate de los eventos que vienen en Abancay.</span>
+			</div>
+		</div>
+		<!--<article id="comentarios">
+			<span><h1>Tiendas asociadas a Abancaycito</h1>Si necesitas algo ya sabes donde encontrarlo en Abancay, que esperas para comprar.</span>
+		</article>
+		<div>
+			<div class="vinculos">
+				<span><h2>CURAZAO</h2></span>
+				<figure>
+					<img src="imgs/tienda1.jpg" />				
+				</figure>
+				<span>Todos los electrodomesticos que necesitas.</span>
+			</div>
+			<div class="vinculos">
+				<span><h2>OXXO</h2></span>
+				<figure>
+					<img src="imgs/tienda2.jpg" />				
+				</figure>
+				<span>Tienda por supermercados cerca de ti.</span>
+			</div>
+			<div class="vinculos">
+				<span><h2>WALMART</h2></span>
+				<figure>
+					<img src="imgs/tienda3.jpg" />				
+				</figure>
+				<span>Enterate de los eventos que vienen en Abancay.</span>
+			</div>
+		</div>	
+		<div>
+			<div class="vinculos">
+				<span><h2>SORIANA</h2></span>
+				<figure>
+					<img src="imgs/tienda4.jpg" />				
+				</figure>
+				<span>Mira las fotos mas populares y comentalas.</span>
+			</div>
+			<div class="vinculos">
+				<span><h2>NORMA</h2></span>
+				<figure>
+					<img src="imgs/tienda5.jpg" />				
+				</figure>
+				<span>Sube y mira tus videos y compartelo con tus amigos.</span>
+			</div>
+			<div class="vinculos">
+				<span><h2>TOPITOP</h2></span>
+				<figure>
+					<img src="imgs/tienda6.jpg" />				
+				</figure>
+				<span>Enterate de los eventos que vienen en Abancay.</span>
+			</div>
+		</div>-->			
+	</section>		
+
+	<footer id="pie">
+		Derechos Reservados &copy; 2014	Abancaycito<br>
+		La nueva red Social de Abancay.
+		<figure>
+			<img />
+			<img />	
+			<img />			
+		</figure>
+	</footer>
+	
+	<script language="javascript">
+ 
+//Aquí cambia los nombres de las imágenes por las tuyas.
+var imagenes=new Array()
+ 
+imagenes[0]=new Image (380,288);
+imagenes[0].src="imgs/portada.jpg"
+imagenes[1]=new Image (399,291);
+imagenes[1].src="imgs/telexfree.jpg"
+imagenes[2]=new Image (248,289);
+imagenes[2].src="imgs/plaza.jpg"
+imagenes[3]=new Image (215,366);
+imagenes[3].src="imgs/downhill.jpg"
+ 
+cont=0
+function presImagen()
+{
+if (document.all){
+document.getElementById('foto').filters.blendTrans.apply()
+document.getElementById('foto').src=imagenes[cont].src
+document.getElementById('foto').filters.blendTrans.play()
+}
+else
+    {
+    document.images.foto.src = imagenes[cont].src
+    }
+if (cont < imagenes.length-1)
+{cont ++}
+else
+{cont=0}
+tiempo=window.setTimeout('presImagen()',3000)
+ //cada 5000 milisegundos (5 seg.) cambia la imagen.
+//cambia la cantidad por el tiempo que quieras que transcurra entre imagen e imagen
+}
+ 
+</script>
+
+</body>
+</html>

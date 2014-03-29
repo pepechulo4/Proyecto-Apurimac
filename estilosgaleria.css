@@ -1,0 +1,88 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('estrellaycomen/fonts/icomoon.eot?-9bmxuu');
+	src:url('estrellaycomen/fonts/icomoon.eot?#iefix-9bmxuu') format('embedded-opentype'),
+		url('estrellaycomen/fonts/icomoon.woff?-9bmxuu') format('woff'),
+		url('estrellaycomen/fonts/icomoon.ttf?-9bmxuu') format('truetype'),
+		url('estrellaycomen/fonts/icomoon.svg?-9bmxuu#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	/*font-family: 'icomoon';*/
+	speak: none;
+	font-style: normal;
+	/*font-weight: normal;*/
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-comentarios:before {
+	content: "\e600";
+	color: rgba(0,0,0,0.5);
+	font-family: 'icomoon';
+	font-weight: normal;
+}
+.icon-estrella:before {
+	content: "\e601";
+	color: rgba(0,0,0,0.5);
+	font-family: 'icomoon';
+	font-weight: normal;
+}
+
+section div div.vinculoscomen
+{	
+	background: #fff;
+	border: 1px solid #b6b7bf;
+	border-radius: 0px;
+	display: inline-block;
+	margin: 1.4em 0 0 1.5em;
+	padding: 0.4em;
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-o-transition: 0.3s;
+	-ms-transition: 0.3s;
+}
+section div div.vinculoscomen:hover
+{
+	box-shadow: rgba(0,0,0,0.5) 5px 5px 10px;
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+}
+section div div span /*falta agregar a los numeros de comentarios y estrellas de comentarios.hmtl*/
+{
+	display: block;
+	font-weight: bold;
+	font-family: arial;
+	text-align: center;
+	width: 130px;
+}
+section div div figure.fotosgale img
+{
+	height: 120px;	
+	width: 150px;
+}
+section #galefechapubli
+{	
+	/*border: 1px solid black;*/
+	text-align: left;
+	background: #fff;	
+	border-radius: 0px;	
+	font-family: Coustard;	
+	margin: 0.8em 0 0 0;	
+	padding: 0.8em 4em;	
+}
+section #galefechapubli form
+{	
+	/*border: 1px solid red;*/
+	display: inline-block;
+	float: right;
+}
