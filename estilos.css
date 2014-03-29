@@ -308,8 +308,8 @@ section #titulonosotros
 	}
 	nav ul li a
 	{
-		padding: .3em 6em;
 		display: block;
+		padding: .3em 6em;
 		text-align: center;
 	}
 	section #comentarios span
@@ -320,4 +320,54 @@ section #titulonosotros
 	{
 		display: none;
 	}
+}
+
+#menu .ul
+{
+	padding: 0;
+	text-align: center;
+}
+#menu .ul li
+{
+	display: inline-block;
+	margin-top: 35px;
+}
+#menu .ul li a
+{
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 2em;
+	font-weight: bold;
+	transition:0.5s;
+}
+#menu .ul li a:hover
+{
+	background: rgba(255, 255, 255, 0.7);
+}
+
+#menu .ul li .icon-restaurante
+{
+	background: #7FFF00;
+	border-radius: 0 0 0 15px;
+}
+#menu .ul li .icon-hoteles
+{
+	background: #1E90FF;
+}
+#menu .ul li .icon-tiendas
+{
+	background: #FFD700;
+}
+#menu .ul li .icon-quintas
+{
+	background: #FF6347;
+}
+#menu .ul li .icon-bares
+{
+	background: #90EE90;
+}
+#menu .ul li .icon-sport
+{
+	background: #20B2AA;
+	border-radius: 0 0 15px 0;
 }
