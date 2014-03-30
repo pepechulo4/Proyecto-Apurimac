@@ -216,7 +216,7 @@ section div div.vinculos span
 	text-align: center;
 	width: 250px;
 }
-section div div.vinculos span:nth-child(1)
+section div div.vinculos span:nth-child(1),section div div.vinculos span:nth-child(2)
 {
 	display: block;	
 	font-family: Coustard;
