@@ -401,6 +401,20 @@ section #video video
 		display: none;
 	}
 }
+#btn-videoex #link-video
+{
+	float: left;
+}
+#formulario input
+{
+	background: rgb(62, 127, 197);
+	border: 2px solid rgb(62, 127, 197);
+	display: inline-block;
+	width: 81%;
+	height: 30px;
+	color: white;
+	font-size: 16px;
+}
 
 #menu .ul
 {
