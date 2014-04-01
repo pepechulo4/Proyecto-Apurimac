@@ -1,6 +1,7 @@
 *
 {
 	 margin: 0px;
+	 text-decoration: none;
 }
 body
 {
@@ -85,6 +86,14 @@ footer figure img:nth-child(3):hover
 {
 	background-image: url("imgs/youtube.png");
 	/*opacity: 0.7;*/
+}
+h1
+{
+	font-size: 1.3em;
+}
+h2
+{
+	font-size: 1.5em;
 }
 nav
 {	
@@ -254,6 +263,23 @@ section #imgcentrado img
 	min-height: 200px;
 	width: 100%;	
 }
+section #sub-imgcentrado
+{
+/*border: 1px solid red;*/
+display: inline-block;
+overflow: hidden;
+}
+section #sub-imgcentrado img
+{
+	background: #fff;	
+	border-radius: 10px;
+	/*float: left;*/
+	margin: 0 0.18em;
+	min-height: 150px;
+	padding: 0.4em 0.5em;
+	width: 220px;	
+	text-align: center;
+}
 section #btn-videoex
 {
 	margin: 0.3em 0 0 0.5em;
@@ -282,7 +308,7 @@ section #comentarios
 	border-radius: 10px;	
 	color: white;
 	font-family: Coustard;		
-	padding: 0.8em 4em;
+	padding: 0.2em 4em;
 	text-align: center;
 	text-shadow: #000 0px 0px 5px;
 	background-image: url("imgs/fondo1.jpg");
