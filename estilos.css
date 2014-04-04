@@ -315,7 +315,7 @@ section #comentarios
 
 	/*background: linear-gradient( to right, rgb(236, 214, 236), rgba(255,255,255,1), rgb(236, 214, 236));*/	
 }
-section #titulonosotros
+/*section #titulonosotros ya lo borre
 {
 	background: #fff;
 	border-radius: 0px;	
@@ -323,8 +323,8 @@ section #titulonosotros
 	margin: 1em 0;	
 	padding: 0.8em 4em;
 	text-align: left;
-	/*background: linear-gradient( to right, rgb(236, 214, 236), rgba(255,255,255,1), rgb(236, 214, 236));*/	
-}
+	/*background: linear-gradient( to right, rgb(236, 214, 236), rgba(255,255,255,1), rgb(236, 214, 236));*/	/*
+}*/
 section #video span
 {
 	background: rgba(46, 119, 213, 0.8);
@@ -374,7 +374,8 @@ section #video video
 @media screen and (max-width: 400px){
 	nav 
 	{
-		margin: 0.3em;
+		margin: 0.3em 0;
+		width: 100%;
 	}
 	nav ul 
 	{
